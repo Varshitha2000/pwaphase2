@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form page</title>
+    <link rel="stylesheet" href="css/form.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    <div class="prt">
+    <!--career obj-->
+      <div class="career">
+        <h1>career objective</h1>
+        <label for="career"></label>
+        <input type="text" name="career" id="career" placeholder="career objective">
+
+      </div>
+      <!--personal info-->
+      <div class="details">
+        <h1>personal details</h1>
+        <!--<label for="details"></label>-->
+        <input type="text" name="name" id="name" placeholder="enter name">
+      <!--  <label for="details"></label>-->
+    <input type="text" name="birthdate" id="birthdate" placeholder="enter dob"><br>
+    <input type="text" name="mobile" id="mobile" placeholder="enter mobilenum"><br>
+    <input type="text" name="email" id="email" placeholder="enter email"><br>
+    <input type="text" name="address" id="address" placeholder="enter address"><br>
+      </div>
+      <!--edu details-->
+      <div class="details">
+        <h1>Graduation details</h1>
+        <label for="insti">
+        <select id="insti">
+          <option>select institute</option>
+          <option>mits</option>
+          <option>iit</option>
+          <option>nit</option>
+
+        </select>
+        </label>
+         <label for="branch">
+         <select id="branch">
+           <option>select branch</option>
+           <option>cse</option>
+           <option>ece</option>
+           <option>eee</option>
+
+         </select>
+         </label>
+         <label for="gyop">
+           <select id="gyop" >
+         <option>select gyop</option>
+         <option>2021</option>
+         <option>2022</option>
+         <option>2023</option>
+         </select>
+          </label>
+              <input type="text" name="gperecnt" id="gpercent" placeholder="enter percent">
+      </div>
+      <div class="details">
+        <h2>Inter details</h2>
+        <label for="iinsti">
+        <select id="iinsti">
+          <option>select institute</option>
+          <option>narayana</option>
+          <option>chaitanya</option>
+          <option>ratnam</option>
+
+        </select>
+        </label>
+         <label for="ibranch">
+         <select id="ibranch">
+           <option>select section</option>
+           <option>co-spark</option>
+           <option>niz</option>
+           <option>az</option>
+
+         </select>
+         </label>
+         <label for="iyop">
+           <select id="iyop" >
+         <option>select yop</option>
+         <option>2017</option>
+         <option>2016</option>
+         <option>2015</option>
+         </select>
+          </label>
+              <input type="text" name="iperecnt" id="ipercent" placeholder="enter percent">
+    </div>
+    <div class="details">
+      <h1>10th details</h1>
+      <label for="sinsti">
+      <select id="sinsti">
+        <option>select school</option>
+        <option>narayana</option>
+        <option>sri chaitanya</option>
+        <option>others</option>
+      </select>
+      </label>
+       <label for="sbranch">
+       <select id="sbranch">
+         <option>select board</option
+           <option>cbse</option>
+           <option>ssc</option>
+           <option>icse</option>
+       </select>
+       </label>
+       <label for="syop">
+         <select id="syop" >
+       <option>select yop</option>
+       <option>2015</option>
+       <option>2014</option>
+       <option>2013</option>
+       </select>
+        </label>
+            <input type="text" name="sperecnt" id="spercent" placeholder="enter percent">
+            </div>
+            <div class="s">
+              <h1>skills</h1>
+              <input type="text" name="skills" id="skills" placeholder="enter skills">
+            </div>
+           <button type="button" name="button" id="button" onclick="submitData()">submit</button>
+  </body>
+  <script type="text/javascript" src="js/main.js">
+
+  </script>
+</html>
