@@ -80,6 +80,11 @@ function career(c){
   }
   table.innerHTML=tr1+tr2;
   right.append(table);
+  var hr=document.createElement("hr");
+  right.append(hr);
+  var head=document.createElement("h1");
+  head.textContext="skills";
+  right.append(head);
 var ski=document.createElement("h1");
 ski.textContent="skills";
 right.append(ski);
