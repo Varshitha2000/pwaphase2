@@ -47,7 +47,7 @@ function display(d){
   //  child.append(img);
     var link=document.createElement("a");
     link.classList.add("link");
-    link.href="Project9.html?id="+d[i].id;
+    link.href="Resume.html?id="+d[i].id;
     link.textContent="view profile";
     child.append(img);
   //  var head=document.createElement("h3");
