@@ -39,5 +39,21 @@
   <script type="text/javascript"src="js/get.js">
 
   </script>
+<!-- service worker -->
+<script type="text/javascript">
+  if('serviceWorker' in navigator){
+    navigator.serviceWorker.register("js/sw.js").then( function(rigister){
+      rigister.addEventListener('update found',function(){
+        var installingsw=rigister.installing;
+        console.log("serviceWorker installed",installingsw);
+      });
+    })
+    .catch(function(e){
+      console.log("error");
+    });
+  }
+  else {
+    console.log("browser doesn't support");
+  }
 
 </html>
