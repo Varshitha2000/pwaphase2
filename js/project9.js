@@ -80,7 +80,7 @@ function career(c){
   }
   table.innerHTML=tr1+tr2;
   right.append(table);
-var ski=document.createElement("h1");
-ski.textContent="skills";
-right.append(ski);
+var s=document.createElement("h1");
+s.textContent="skills";
+right.append(s);
 }
