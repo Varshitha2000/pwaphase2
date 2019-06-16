@@ -48,6 +48,7 @@ open.onsuccess=function(e){
     mobile:mobile,
     email:email,
     address:address,
+    skills:skills,
     education:[
       {
       institute:insti,
@@ -69,7 +70,7 @@ open.onsuccess=function(e){
 }
 ],
 
-    skills:skills,
+    //skills:skills,
 
   });
 }
