@@ -5,14 +5,14 @@ this.addEventListener('install',function(event){
         e.addAll([
              '/index.html',
              '/css/index.css',
-             '/css/resume.css',
+             '/css/project9.css',
              '/css/form.css',
              '/js/get.js',
              '/js/main.js',
-             '/js/resume.js',
+             '/js/project9.js',
              '/js/sw.js',
              '/form.html',
-             '/resume.html'
+             '/Project9.html'
       ])
     })
   )
